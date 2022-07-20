@@ -100,30 +100,41 @@ img {
     flex-wrap: wrap;
 }
 
-.blog-button {
+.blog-nav {
     width: 20%;
 }
 
-.blog-button .button {
-    display: flex;
-    flex-direction: column;
-    background-color: #161616;
-    padding: 20px;
-    border-radius: 10px;
+.blog-nav ul {
+    background-color: black;
     margin-right: 24px;
-}
-
-.blog-button .btn {
-    color: #161616;
-    background-color: #fff;
-    font-weight: 600;
-    font-size: 16px;
-    padding: 16px;
+    list-style: none;
     border-radius: 10px;
 }
 
-.blog-button .btn-py {
-    margin: 20px 0;
+.blog-nav ul li {
+    text-align: center;
+}
+
+.blog-nav ul li a {
+    width: 70%;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 14px 0px;
+    display: inline-block;
+    color: #161616;
+    font-weight: 600;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+
+    transition: .3s;
+}
+
+.blog-nav ul li a:hover {
+    background-color: #dd0000;
+}
+
+.blog-nav ul li a:focus {
+    background-color: #dd0000;
 }
 
 .blog-item {
@@ -169,4 +180,56 @@ img {
     font-size: 12px;
 }
 
+.button {
+    text-align: center;
+    display: none;
+}
+
+.btn {
+    background-color: #dd0000;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 16px 48px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+}
+
 /*------------------------- Blog End -------------------------*/
+/*------------------------- Footer Start -------------------------*/
+.footer {
+    text-align: center;
+    background-color: #161616;
+}
+
+.footer-top {
+    border-bottom: 1px solid #414040;
+}
+
+.footer-top h1 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+}
+
+.footer-bottom ul {}
+
+.footer-bottom ul li {
+    display: inline-block;
+}
+
+.footer-bottom ul li a {
+    color: #999;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+/*------------------------- Footer End -------------------------*/
