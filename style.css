@@ -28,7 +28,7 @@ img {
 .header {
     margin-top: 40px;
     height: 550px;
-    background-color: #17172d;
+    background-color: #161616;
     color: white;
     display: flex;
     border-radius: 26px;
@@ -85,11 +85,11 @@ img {
 
 @keyframes header-animation {
     from {
-        background-color: #17172d;
+        background-color: #161616;
     }
 
     to {
-        background-color: blue;
+        background-color: rgb(83, 83, 110);
     }
 }
 
@@ -196,6 +196,7 @@ img {
     border: none;
 }
 
+
 /*------------------------- Blog End -------------------------*/
 /*------------------------- Footer Start -------------------------*/
 .footer {
@@ -233,3 +234,40 @@ img {
 }
 
 /*------------------------- Footer End -------------------------*/
+
+
+
+/*============================ Another Page Style ===============================*/
+
+/*------------------------ Upcoming Match Blog Style Start ------------------------*/
+.match-summary {
+    padding: 30px 14px;
+}
+
+.match-summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.team-summary h2 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.team-summary p {
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+/*------------------------ Upcoming Match Blog Style End ------------------------*/
+/*------------------------ All Group Blog Style Start ------------------------*/
+.team-summary h1 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/*------------------------ All Group Blog Style End ------------------------*/
