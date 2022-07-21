@@ -61,6 +61,7 @@ img {
     border-radius: 5px;
     border: none;
     font-size: 16px;
+    display: inline-block;
 }
 
 .header-left button i {
@@ -271,3 +272,172 @@ img {
 }
 
 /*------------------------ All Group Blog Style End ------------------------*/
+
+
+
+/******************************* Responsive Style Start ****************************/
+
+/*------------ Mobile Device -----------*/
+@media screen and (max-width:576px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-left {
+        width: 80%;
+        margin-top: 40px;
+    }
+
+    .header-left h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .header-left p {
+        color: #d4d1d1;
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-left button {
+        display: inline-block;
+    }
+
+    .header-right {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .blog-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-nav {
+        width: 100%;
+    }
+
+    .blog-nav ul {
+        background-color: #fff;
+
+    }
+
+    .blog-nav ul li a {
+        width: 40%;
+        padding: 26px 18px;
+        border: 2px solid #ddd;
+    }
+
+
+    .blog-item {
+        width: 100%;
+    }
+
+    .blog-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 566px;
+    }
+
+    .content-details button {
+        display: block;
+    }
+
+    .content-details h3 {
+        font-size: 24px;
+    }
+}
+
+/*------------ Tablat Device -----------*/
+@media screen and (max-width:768px) {
+    .header-left h1 {
+        font-size: 33px;
+    }
+
+    .blog-nav {
+        width: 100%;
+    }
+
+    .blog-nav ul {
+        background-color: #fff;
+    }
+
+    .blog-nav ul li a {
+        width: 40%;
+        padding: 26px 18px;
+        border: 2px solid #ddd;
+    }
+
+    .blog-nav ul li {
+        display: inline-block;
+    }
+
+    .blog-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-nav {
+        width: 100%;
+    }
+
+    .blog-nav ul {
+        background-color: #fff;
+
+    }
+
+    .blog-nav ul li a {
+        width: 40%;
+        padding: 26px 18px;
+        border: 2px solid #ddd;
+    }
+
+
+    .blog-item {
+        width: 100%;
+    }
+
+    .blog-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .blog-nav ul {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .blog-nav ul li {
+        text-align: center;
+        margin: 0 30px;
+    }
+
+    .blog-nav ul li a {
+        width: 100%;
+        padding: 10px 16px;
+        margin: 14px 0px;
+    }
+
+    .button {
+        text-align: center;
+        display: block;
+    }
+
+}
+
+/*------------ Laptop Device -----------*/
+@media screen and (max-width:992px) {}
+
+
+/******************************* Responsive Style End ******************************/
